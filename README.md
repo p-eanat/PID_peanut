@@ -2,6 +2,8 @@
 Written for arduino.<br>
 Named for peanuts because peanuts are yummy.
 
+Improved features include options to set an initial output value and set a deadband value. The output stays constant if the change in output is less than the deadband value, therefore reducing mechanical wear.
+
 ### To start:
 Download PID_peanut.h and PID_peanut.cpp and add to the folder with your arduino code.
 ```
